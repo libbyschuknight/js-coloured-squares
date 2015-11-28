@@ -1,16 +1,17 @@
-#board {
+#page {
   text-align: center;
   font-family: monospace;
-  background-color: #D2D7D3;
+  background-color: white;
   margin: 0;
   padding: 0;
   position: relative;
   font-size: 18px;
 }
 
-.post-it {
+.square {
   position: absolute !important;
   width: 200px;
+  height: 100px;
   background-color: yellow;
   box-shadow: -2px 2px 5px #555;
   overflow: hidden;
@@ -67,8 +68,3 @@
   max-height: 100%;
   outline: none;
 }
-
-
-
-
-

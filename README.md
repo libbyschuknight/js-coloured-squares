@@ -1,11 +1,12 @@
-# Behavior Drill Post It Board V1
+# JavaScript, Jquery and Colour
 
-## Phase 3 Challenge at EDA
+This is me playing around with js and jquery.
 
-##Learning Competencies
+There has been a couple of things I have wanted to do for awhile.
 
-- OOJS
-- Javascript event binding
+1. make a site that works like this screen saver I see on a mac
+2. being able to hover and move your mouse over the page and it adds coloured squares
+  - from the post it notes exercise at EDA
 
 
 - [jQuery UI](http://jqueryui.com/)

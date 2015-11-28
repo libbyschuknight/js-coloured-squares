@@ -1,9 +1,9 @@
-// ####### BOARD #######
+// ####### page #######
 
-var Board = function( selector ) {
-  // Your board related code goes here
+var page = function( selector ) {
+  // Your page related code goes here
 
-  // Use $elem to access the DOM element for this board
+  // Use $elem to access the DOM element for this page
   var $elem = $( selector );
 
   function initialize() {
@@ -36,7 +36,7 @@ var PostIt = function(x, y) {
     });
 
   function initialize (x, y) {
-    $("#board").append($elem);
+    $("#page").append($elem);
   }
 
   function PLUR () {
@@ -99,11 +99,5 @@ var PostIt = function(x, y) {
 // #### document ready #####
 $(function() {
   // This code will run when the DOM has finished loading
-  new Board('#board');
+  new page('#page');
 });
-
-
-
-
-
-
