@@ -12,7 +12,7 @@ $(document).ready(function () {
 
 
     $(this).css({
-      "background-color" : "red"
+      "background-color" : randRGB()
     });
 
   });
