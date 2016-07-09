@@ -1,8 +1,9 @@
 body {
-  /*margin: auto 0;*/
+  margin: auto;
 }
 
 #page {
+  margin: auto;
   text-align: center;
   font-family: monospace;
   background-color: black;
@@ -14,6 +15,7 @@ body {
 
 
 .main {
+  margin: auto;
   width: 100%;
   height: 100%;
 }
